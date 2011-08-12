@@ -53,7 +53,7 @@ class VLC
   end
   
   def self.start
-    system("#{program_path} --daemon -I oldrc --rc-unix=#{socket_path} --rc-fake-tty --pidfile #{self.pid_path}")
+    system("#{program_path} --daemon -I oldrc --rc-unix=#{socket_path} --rc-fake-tty --pidfile=#{pid_path}")
     while !running? do
       sleep(0.5)
     end
