@@ -109,7 +109,7 @@ if ARGV[0].nil?
     puts "#{k} (#{v})"
   end
   puts ""
-  puts "- To play the first one: music #{list.keys.first}"
+  puts "- To play the first one: music #{music.keys.first}"
   puts "- To stop: music stop"
   puts "- To resume: music resume"
   puts "- To quit: music quit"
