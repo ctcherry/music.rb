@@ -5,7 +5,7 @@ A simple script intended to quickly play internet music streams from the command
 
 Requirements
 ------------
-VLC needs to be installed. (Tested with version 1.1.11)
+VLC needs to be installed. (Tested with version 1.1.11 - 2.0.0)
 
 Tested with Ruby 1.8.7, probably works on other recent versions too.
 
